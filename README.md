@@ -1,2 +1,2 @@
 # jWaitingModal
-a jquery plugin for wating messajes.
+a jquery plugin for waiting messajes.
