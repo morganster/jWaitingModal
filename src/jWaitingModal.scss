@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+$font: 'Roboto',
+sans-serif;
+//color variables
+$primary-color: #d8262e;
+$secondary-color: #002e6c;
+$border-color:#f5f5f5;
+//styles
+.wm-loader {
+    border: 16px solid $border-color;
+    /* Light grey */
+    border-top: 16px solid $primary-color;
+    border-bottom: 16px solid $secondary-color;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    animation: wm-spin 1s linear infinite;
+}
+
+@keyframes wm-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wm-modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.wm-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.wm-message {
+    font-family: $font;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* The Close Button */
+
+.wm-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.wm-close:hover,
+.wm-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
