@@ -19,7 +19,7 @@ $("#wm-modal").hideWmModal();
 
 ##Contributing
 
-:fire:Before:fire: making a pull request do the following steps:
+:smile:Before:smile: making a pull request do the following steps:
 
 1. Run `gulp`
 2. Make sure `gulp` doesn't return any errors
@@ -36,7 +36,7 @@ Setting up the environment:
 5. Run `npm install`
 6. Run `bower install`
 
-:sunflower:You should only modify files inside `src` or `test` directories!:sunflower: Files in the `dist` directory are generated **automatically** after running `gulp`.
+:sweat_smile:Hey you should only modify files inside `src` or `test` directories!:sweat_smile: Files in the `dist` directory are generated **automatically** after running `gulp`.
 
 ##Examples
 
