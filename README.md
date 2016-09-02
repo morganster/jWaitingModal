@@ -31,10 +31,8 @@ Setting up the environment:
 
 1. Install `Node.js`
 2. Go to your project directory
-3. Run `npm install -g bower`
-4. Run `npm install -g gulp`
-5. Run `npm install`
-6. Run `bower install`
+3. Run `npm install -g gulp`
+4. Run `npm install`
 
 :sweat_smile:Hey you should only modify files inside `src` or `test` directories!:sweat_smile: Files in the `dist` directory are generated **automatically** after running `gulp`.
 
